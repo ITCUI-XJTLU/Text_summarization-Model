@@ -40,7 +40,7 @@ The process of training is below:
 
 Usr the result we get to make some prediction :
 
-> Actually, I have to admit that my model does not perform well, and it can be seen from the prediction below . I have spent a lot of time to improve it , such as changing the parameters *(learning rate, dropout rate , epoch times, clip value so on )*, and checking my neural network is right or not . However, I fail.  **I observed that no matter what parameters the model has, the value of loss funtion always can not decrease after the first some epochs (about 10-20 epochs).** Since I have upload all of my codes and data of the project , it is not difficult for deep-leaner to repeat my work . So if someone makes an improvement about the model , you are welcome the pull your codes to the repository.  I am welcome to any helpful advice and ideas.      
+Actually, I have to admit that my model does not perform well, and it can be seen from the prediction below . I have spent a lot of time to improve it , such as changing the parameters *(learning rate, dropout rate , epoch times, clip value so on )*, and checking whether my neural network is right or not . However, I fail.  **I observed that no matter what parameters the model has, the value of loss funtion always can not decrease after the first some epochs (about 10-20 epochs).** Since I have upload all of my codes and data of the project , it is not difficult for deep-leaners to repeat the work . So if you can make an improvement about the model , you are welcome to pull your codes to the repository.  And I will also study and research in machine learning in my spare time in university , so I will also make an effort to imporve the model . Updating soon ...        
  
  
  
