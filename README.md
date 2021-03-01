@@ -1,11 +1,7 @@
 # Text_summarization-Model  
 ### Document:   
-As a beginner of artificial intelligence, I explored NLP field in 2020 winter holidy. This is the presentation of my project, which is used to automatically generate a text summary . Since I am new to text-summarization, there may be some mistakes in the project, so I appreciate any kind of advice and feedback. The project includes three different models: model 1 is simply based on word frequnce , model 2 is based on the Seq2Seq model, model 3 is only implemented by the attention method.
-
-## Model 1:
-
-
-## Model 2: Sequence to Sequence Learning with Neural Networks  
+As a beginner of artificial intelligence, I explored NLP field in 2020 winter holidy. This is the presentation of my project, which is used to automatically generate a text summary . Since I am new to text-summarization, there may be some mistakes in the project, so I appreciate any kind of advice and feedback. The project is based on one of the popular neural network---- **Seq2Seq Model** .
+ 
 ### Introdoction:  
 In deep learning, the seq2eq model is actually a encoder-decoder model , which is used to transform a sequence to another by the recurrent neural network (RNN). Most public projects on Github are usually applied to the language translation models, however, seq2seq model is able to carry great value to text summarization. Based on the paper [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215) and [some current translation models](https://github.com/ITCUI-XJTLU/pytorch-seq2seq/blob/master/1%20-%20Sequence%20to%20Sequence%20Learning%20with%20Neural%20Networks.ipynb), model 2 is developed.  
 Model 2 can be divided into three parts: `Encoder` , `Decoder` , `Attention Mechanism`  
@@ -30,4 +26,27 @@ Model 2 can be divided into three parts: `Encoder` , `Decoder` , `Attention Mech
 
 #### Data: 
 * [My Data in kaggle](https://www.kaggle.com/cuitengfeui/textsummarization-data)
+  
+#### How to run:
+  
+  
+     
+### My Result:
+The basic information of my model: 
+
+
+The process of training is below: 
+
+
+Usr the result we get to make some prediction :
+
+> Actually, I have to admit that my model does not perform well, and it can be seen from the prediction below . I have spent a lot of time to improve it , such as changing the parameters *(learning rate, dropout rate , epoch times, clip value so on )*, and checking my neural network is right or not . However, I fail.  **I observed that no matter what parameters the model has, the value of loss funtion always can not decrease after the first some epochs (about 10-20 epochs).** Since I have upload all of my codes and data of the project , it is not difficult for deep-leaner to repeat my work . So if someone makes an improvement about the model , you are welcome the pull your codes to the repository.  I am welcome to any helpful advice and ideas.      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
