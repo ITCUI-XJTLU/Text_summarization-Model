@@ -15,4 +15,17 @@ Model 2 can be divided into three parts: `Encoder` , `Decoder` , `Attention Mech
 
 * **Attention** :   Attention mechanism is a method to improve the performance of classical encoder-decoder framework, which usually has trouble with gradient disappearence and gradient blast. Instead of only getting information from the context vector, the attention mechanism allow the decoder part use all of token information in the final hidden layer by the diffrent weights. If you want view the detail of this technique , please take a look at the code of Attention class in model2.trainclass.py or a famous paper [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) .  We can visualize the method as the picture below: 
 
+* **Note** : Apart from the parts above , there are also some important and common motheds to process data , such as using torchtext to automatically generate dataset we need , and loading english dictionaty from spacy library to embede the words of the input. **If you are confused about the codes , please read the explanation around the codes**.  
+
 ### Model Information :
+#### Prerequisites:
+* Python == 3.6
+* numpy == 1.18.0
+* pandas == 0.24.2
+* torch == 1.0.0
+* GPU (optional)
+
+#### Data: 
+* [My Data in kaggle](https://www.kaggle.com/cuitengfeui/textsummarization-data)
+* torchtext == 0.4.0
+* spacy == 2.1.8
