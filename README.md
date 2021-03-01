@@ -23,9 +23,11 @@ Model 2 can be divided into three parts: `Encoder` , `Decoder` , `Attention Mech
 * numpy == 1.18.0
 * pandas == 0.24.2
 * torch == 1.0.0
+* torchtext == 0.4.0
+* spacy == 2.1.8
 * GPU (optional)
+> Warning: I suggest you to create a new virtual environment by anaconda for this project . Since if your packages can not match with each other , some strange and tough problems will appears. (I was stucked here for a time :sob: .)
 
 #### Data: 
 * [My Data in kaggle](https://www.kaggle.com/cuitengfeui/textsummarization-data)
-* torchtext == 0.4.0
-* spacy == 2.1.8
+
