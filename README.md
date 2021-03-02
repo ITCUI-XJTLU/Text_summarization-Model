@@ -47,13 +47,14 @@ The project can be run on both local pycharm envirenment and online notebook (Py
 * run ___Model2_GetModel.py___ file to make sure your network works 
 * run ___Model2_Train.py___ to train the model
 * run ___Model2_prediction.py___ 
-  
-  
+    
 #### My Result:
   [My result](https://www.kaggle.com/cuitengfeui/textsummarizationmodelresult)
-  
-     
-### (3)My Result:
+    
+      
+       
+       
+### (3)My Process:
 The basic information of my model: 
   
   <div align=center><img width="500" height="300" src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/model2.png"/></div>
@@ -64,7 +65,7 @@ The process of training is below:
   
   
 Usr the result we get to make some prediction :
-  <div align=center><img width="700" height="300" src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/model2_prediction_fail.png"/></div>
+  <div align=center><img width="800" height="200" src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/model2_prediction_fail.png"/></div>
 
   
 
