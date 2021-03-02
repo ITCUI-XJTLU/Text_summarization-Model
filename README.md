@@ -1,6 +1,10 @@
 # Text_summarization-Model  
 As a beginner of artificial intelligence, I explored NLP field in 2020 winter holidy. This is the presentation of my project, which is used to automatically generate a text summary . Since I am new to text-summarization, there may be some mistakes in the project, so I appreciate any kind of advice and feedback. The project is based on one of the popular neural network---- **Seq2Seq Model** .
- 
+  
+If you want to straightforwardly see my code, please change to the [master branch](https://github.com/ITCUI-XJTLU/Text_summarization-Model/tree/master) . 
+  
+  
+
 ### (1)Introdoction:  
 In deep learning, the seq2eq model is actually a encoder-decoder model , which is used to transform a sequence to another by the recurrent neural network (RNN). Most public projects on Github are usually applied to the language translation models, however, seq2seq model is able to carry great value to text summarization. Based on the paper [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215) and [some current translation models](https://github.com/ITCUI-XJTLU/pytorch-seq2seq/blob/master/1%20-%20Sequence%20to%20Sequence%20Learning%20with%20Neural%20Networks.ipynb), the model is developed.  
 The model can be divided into three parts: `Encoder` , `Decoder` , `Attention Mechanism`  
@@ -37,21 +41,27 @@ We can visualize the method as the picture below:
 * [My Data in kaggle](https://www.kaggle.com/cuitengfeui/textsummarization-data)
   
 #### How to run:    
-  
+The project can be run on both local pycharm envirenment and online notebook (Pycharm is recommended). Here is some main steps:
+* use ___dataPreparention.py___ file to load and clean data
+* change the information in ___Model2_Setting.py___ file (especially the path of files and the parameters of neural network) 
+* run ___Model2_GetModel.py___ file to make sure your network works 
+* run ___Model2_Train.py___ to train the model
+* run ___Model2_prediction.py___ 
+
   
      
 ### (3)My Result:
 The basic information of my model: 
   
-  <div align=center><img width="450" height="300" src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/model2.png"/></div>
+  <div align=center><img width="500" height="300" src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/model2.png"/></div>
 
 
 The process of training is below:  
-  <div align=center><img width="450" height="300" src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/model2_train.png"/></div>
+  <div align=center><img width="450" height="550" src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/model2_train.png"/></div>
 
 
 Usr the result we get to make some prediction :
-  <div align=center><img width="450" height="300" src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/model2_prediction_fail.png"/></div>
+  <div align=center><img width="300" height="700" src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/model2_prediction_fail.png"/></div>
 
   
 
