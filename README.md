@@ -6,10 +6,8 @@ In deep learning, the seq2eq model is actually a encoder-decoder model , which i
 The model can be divided into three parts: `Encoder` , `Decoder` , `Attention Mechanism`  
 * **Encoer** :    Comprised by a series of RNN (in my model , classical RNN model is replaced by GRU, which is an advanced RNN model), the main work of the encoder part is to encode the input source into a sigle vector (the vector is called the context vector in the paper). Firstly, the input sentence would be embedded and then input into the encoder layers. In the stage of the encoder layers, for each step _t_, the input to the encoder RNN is both the embedding of the current word _e(x_t)_, as well as the hidden state from the previous time-step _h_(t-1)_ , and the encoder RNN outputs a new hidden state _h_t_. It can be presented as:    
 
+<div align=center><img width="350" height="300" src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/encoder.png"/></div>
 
-<img src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/encoder.png" width="150" height="150" alt="图片加载失败时，显示这段字"/>
-
-    
     
 * **Decoder** :    Comprised by a series of RNN (in my model , classical RNN model is replaced by GRU, which is an advanced RNN model), the main work of the decoder part is to decode the context vector into a target sequence (the summarization of the input). At each time-step, the input to the decoder RNN is the embedding of current word, _d(y_t)_, as well as the hidden state from the previous time-step, _s(t-1)_ , where the initial decoder hidden state, _s0_, is the context vector, _s0 = z = h_T_, i.e. the initial decoder hidden state is the final encoder hidden state. Thus, similar to the encoder, we can represent the decoder as:
 
