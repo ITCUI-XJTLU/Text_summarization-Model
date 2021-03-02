@@ -1,4 +1,4 @@
-# Text_summarization-Model  
+# Text-summarization Model  
 As a beginner of artificial intelligence, I explored NLP field in 2020 winter holidy. This is the presentation of my project, which is used to automatically generate a text summary . Since I am new to text-summarization, there may be some mistakes in the project, so I appreciate any kind of advice and feedback. The project is based on one of the popular neural network---- **Seq2Seq Model** .
   
 If you want to straightforwardly see my code, please change to the [master branch](https://github.com/ITCUI-XJTLU/Text_summarization-Model/tree/master) . 
@@ -66,10 +66,11 @@ The process of training is below:
   
 Usr the result we get to make some prediction :
   <div align=center><img width="800" height="200" src="https://github.com/ITCUI-XJTLU/Text_summarization-Model/raw/master/picture/model2_prediction_fail.png"/></div>
-
   
-
-Actually, I have to admit that my model does not perform well, and it can be seen from the prediction below . I have spent a lot of time to improve it , such as changing the parameters *(learning rate, dropout rate , epoch times, clip value so on )*, and checking whether my neural network is right or not . However, I fail.  **I observed that no matter what parameters the model has, the value of loss funtion always can not decrease after the first some epochs (about 10-20 epochs).** Since I have upload all of my codes and data of the project , it is not difficult for deep-leaners to repeat the work . So if you can make an improvement about the model , you are welcome to pull your codes to the repository.  And I will also study and research in machine learning in my spare time in university , so I will also make an effort to imporve the model . Updating soon ...        
+  
+  
+Actually, I have to admit that my model does not perform well, and it can be seen from the prediction below . I have spent a lot of time to improve it , such as changing the parameters *(learning rate, dropout rate , epoch times, clip value so on )*, and checking whether my neural network is right or not . However, I fail.  **I observed that no matter what parameters the model has, the value of loss funtion always can not decrease after the first some epochs (about 10-20 epochs).** 
+Since I have upload all of my codes and data of the project , it is not difficult for deep-leaners to repeat the work . So if you can make an improvement about the model , you are welcome to pull your codes to the repository.  And I will also study and research in machine learning in my spare time in university , so I will also make an effort to imporve the model . Updating soon ...        
  
  
  
